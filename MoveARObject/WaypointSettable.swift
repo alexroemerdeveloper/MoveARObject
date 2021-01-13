@@ -3,7 +3,7 @@
 //  MoveARObject
 //
 //  Created by Alexander Römer on 13.01.21.
-//
+////
 
 import CoreGraphics
 import Foundation
@@ -18,7 +18,7 @@ protocol WaypointSettable {
   static var destinationRelativeToWaypoint: Transform { get }
   static func setWaypoint(centre: CGPoint)
 }
-
+//
 extension ContentView: WaypointSettable {
     
   static var destinationRelativeToWaypoint: Transform {
